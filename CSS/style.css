@@ -1,0 +1,22 @@
+.navbar{
+    background: linear-gradient(to right, white, #8a0196);
+}
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    color: #5d0066;
+    text-align: center;
+    margin: 0.6em;
+}
+.col-sm-6 {
+    margin-bottom: 1em;
+}
+.btn-primary {
+    background-color: #8a0196;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7em;
+}
+  
