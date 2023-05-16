@@ -36,10 +36,11 @@ if(encontrado){
     }
     
     let mensaje = `
-    ${nombre}
+    Presupuesto para: ${nombre}
     Destino elegido: ${encontrado.destino}
     Precio Final (incluye hotel y pasajes en ${transporteElegido}): ${precioFinal}
     Estadía: ${encontrado.tiempo}
+    (este presupuesto tiene una validez de 20 días)
     `;
     alert(mensaje); //muestra en un alerta el msj final que incluye destino, estadía, tipo de transporte y precio final.
 } else {
