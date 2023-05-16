@@ -36,11 +36,12 @@ if(encontrado){
     }
     
     let mensaje = `
-    Destino: ${encontrado.destino}
-    Precio (incluye hotel y pasajes en ${transporteElegido}): ${precioFinal}
-    Tiempo: ${encontrado.tiempo}
+    ${nombre}
+    Destino elegido: ${encontrado.destino}
+    Precio Final (incluye hotel y pasajes en ${transporteElegido}): ${precioFinal}
+    Estadía: ${encontrado.tiempo}
     `;
-    alert(mensaje); //muestra en un alerta el msj final que incluye destino, tipo de transporte y precio final.
+    alert(mensaje); //muestra en un alerta el msj final que incluye destino, estadía, tipo de transporte y precio final.
 } else {
     alert("Destino no disponible momentáneamente"); //en caso de que ingresen un valor que no exista entre los productos
 }
